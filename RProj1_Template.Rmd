@@ -54,10 +54,10 @@ ggplot(data = star_data, mapping = aes(x = x, y = y)) +
 
 ```
 
-The correlation coefficient between x and y is the same value as the r of dino
+The correlation coefficient between x and y is a different value than the r of dino
  
 ```{r cor-star}
-dino_data %>%
+star_data %>%
   summarize(r = cor(x, y))
 
 ```
