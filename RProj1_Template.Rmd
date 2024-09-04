@@ -17,7 +17,13 @@ library(datasauRus)
 
 ### Exercise 1
 
-(Type your answer to Exercise 1 here. This exercise does not require any R code. **Remove notes like this in the final product that you turn in**)
+(A data frame with 1846 rows and 3 variables:
+
+dataset: indicates which dataset the data are from
+
+x: x-values
+
+y: y-values)
 
 ### Exercise 2
 
