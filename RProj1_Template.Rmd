@@ -47,14 +47,18 @@ dino_data %>%
 
 
 ```{r plot-star}
-
+star_data <- datasaurus_dozen %>%
+  filter(dataset == "star")
+ggplot(data = star_data, mapping = aes(x = x, y = y)) + 
+  geom_point()
 
 ```
 
-I'm some text, you should replace me with more meaningful text...
+The correlation coefficient between x and y is the same value as the r of dino
  
 ```{r cor-star}
-
+dino_data %>%
+  summarize(r = cor(x, y))
 
 ```
 
